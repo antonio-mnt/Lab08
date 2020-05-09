@@ -119,9 +119,14 @@ public class Airport {
 		return true;
 	}
 
-	@Override
+	/*@Override
 	public String toString() {
 		return "Airport [id=" + id + ", iataCode=" + iataCode + ", airportName=" + airportName + "]";
+	}*/
+	
+	@Override
+	public String toString() {
+		return String.format("%-10s ", airportName);
 	}
 	
 }
